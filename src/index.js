@@ -193,21 +193,21 @@ class DropDownPicker extends React.Component {
     };
   }
 
-  toggle() {
-    this.setState(
-      {
-        isVisible: !this.state.isVisible,
-      },
-      () => {
-        const isVisible = this.state.isVisible;
-        if (isVisible) {
-          this.open(false);
-        } else {
-          this.close(false);
-        }
-      }
-    );
-  }
+  //   toggle() {
+  //     this.setState(
+  //       {
+  //         isVisible: !this.state.isVisible,
+  //       },
+  //       () => {
+  //         const isVisible = this.state.isVisible;
+  //         if (isVisible) {
+  //           this.open(false);
+  //         } else {
+  //           this.close(false);
+  //         }
+  //       }
+  //     );
+  //   }
 
   resetItems(items, defaultValue = null) {
     this.setPropState(
